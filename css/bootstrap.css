@@ -1374,7 +1374,11 @@ a.text-danger:focus {
 }
 .bg-primary {
   color: #fff;
+<<<<<<< HEAD
   background-color: #F37ab8;
+=======
+  background-color: #337ab8;
+>>>>>>> 265abf43cce8e5fd2ee0c1309257a7e416ff269d
 }
 a.bg-primary:hover,
 a.bg-primary:focus {
@@ -1383,6 +1387,10 @@ a.bg-primary:focus {
 .bg-success {
   background-color: #dff0d8;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 265abf43cce8e5fd2ee0c1309257a7e416ff269d
 a.bg-success:hover,
 a.bg-success:focus {
   background-color: #c1e2b3;
