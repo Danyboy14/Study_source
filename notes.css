@@ -5,6 +5,7 @@ body {
 }
 .side-panel{
 	background-color: #337ab7;
+	border: 2px dashed black;
 	width:20%;
 	height: 100%;
 	padding-top:50px;
@@ -137,7 +138,10 @@ body {
     #adv-search {
         height:50px;
         padding-top:50px;
-        width:100%;
+        position:relative;
+        float:center;
+        width:500px;
+        margin-left:500px;
     }
     .dropdown.dropdown-lg {
         position: static !important;
