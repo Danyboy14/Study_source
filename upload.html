@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
     <title>Study Source</title>
+    <link rel="stylesheet" href="notes.css" type="text/css">
 
 
     <!-- Bootstrap Core CSS -->
@@ -29,6 +30,8 @@
     <link rel="stylesheet" href="css/creative.css" type="text/css">
 
 <!-- Search page CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -77,17 +80,43 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1>StudySource</h1>
                 <hr>
-                <p>Browse our collection of notes</p>
-                <a href="leavingCert.html" class="btn btn-primary btn-xl page-scroll">Leaving Certificate</a>
-                <a href="college.html" class="btn btn-primary btn-xl page-scroll">College Courses</a>
+                <hr>
+                <h1>StudySource</h1>
+            </div>
+                <div id="upload">    
+                    <h5>Upload notes to sell:</h5>
+                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                    <h3>Choose a pdf file to upload:</span></h3>
+                    <br>
+                    <br>    
+                    <input type="file" name="myFile">
+                    <br>
+                    <h3>Select your price: </h3>
+                    <div class="form-row">
+                        <label for="c1">€</label>
+                        <input type="number" value="10.00" min="0" step="0.01" data-number-to-fixed="2" data-number-stepfactor="100" class="currency" id="c1"/>
+                    </div>
+                                        <input type="submit" value="Upload" class="btn btn-primary btn-xl page-scroll">
 
+                    </form>
+
+                    <!--https://jsfiddle.net/trixta/UC6tG/-->
+                    
+
+                 </div>
+
+                <!--<form action="upload.php" method="post" enctype="multipart/form-data"> 
+                    <input type="file" name="myFile">
+                    <br>
+                    <input type="submit" value="Upload">
+                    </form>
+                    -->
             </div>
         </div>
     </header>
-     
-		
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
