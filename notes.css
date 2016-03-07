@@ -205,6 +205,7 @@ input.currency {
 }
 #upload h5{
 	font-family: 'Georgia', Arial, serif; color: #337ab7; font-size: 28px; text-align:center;
+	color:black;
 	font-style: bold;
 	padding-top:20px;
 }
