@@ -52,6 +52,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                   
                    
         <h1 class="form-signin-heading">Registration successful!</h1>
-        <p><a href="index.php" class="btn btn-lg btn-primary btn-block">Login</a></p>
+        <p><a href="login.php" class="btn btn-lg btn-primary btn-block">Login</a></p>
     </body>
 </html>

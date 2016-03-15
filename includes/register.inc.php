@@ -67,11 +67,11 @@ if (isset($_POST['username'], $_POST['email'], $_POST['p'])) {
 
     if (empty($error_msg)) {
         // Create a random salt
-        $random_salt = hash('sha512', uniqid(openssl_random_pseudo_bytes(16), TRUE));
+       $random_salt = hash('sha512', f9aab579fc1b41ed0c44fe4ecdbfcdb4cb99b9023abb241a6db833288f4eea3c02f76e0d35204a8695077dcf81932aa59006423976224be0390395bae152d4ef);
 
         // Create salted password 
-        $password = hash('sha512', $password . $random_salt);
-
+       $password = hash('sha512', $password . $random_salt);
+      //  $random_salt = $password
         // Insert the new user into the database 
         if ($insert_stmt = $mysqli->prepare("INSERT INTO members (username, email, password, salt) VALUES (?, ?, ?, ?)")) {
             $insert_stmt->bind_param('ssss', $username, $email, $password, $random_salt);

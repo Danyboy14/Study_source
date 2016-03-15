@@ -70,7 +70,7 @@ sec_session_start();
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top">Home </a>
+                    <a class="navbar-brand page-scroll" href="protected_page.php">Home </a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -101,23 +101,30 @@ sec_session_start();
             <!-- /.container-fluid -->
         </nav>
 
-        <header>
+        <section class ="container">
             <div class="header-content">
-                <div class="header-content-inner">
-                    <h1>StudySource</h1>
-                    <hr>
-                    <p><b>Your one stop shop for study notes</b></p>
-                    <a href="#portfolio" class="btn btn-primary btn-xl page-scroll">Get Started</a>
+                <div class="container" style="width:500px;text-align: center;">
+                    <h2 class="form-signin-heading" style = "text-align: center; color: black;"> <b>My Folder </b> </h2>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+                </br>
+
+                                       
+               
+            </h2>
                 </div>
             </div>
-        </header>
+        </section>
 
          <section class ="bg-primary" id="portfolio">
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
                     <h1 style="text-align: center;">Buy</h1>
-                    <a href="browseNotes.php" class="portfolio-box">
+                    <a href="browse.php" class="portfolio-box">
                         
                         <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
 

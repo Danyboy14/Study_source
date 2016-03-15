@@ -1122,7 +1122,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
+  max-width: 200%;
   height: auto;
 }
 .img-rounded {
@@ -3010,6 +3010,53 @@ select[multiple].input-lg {
     font-size: 12px;
   }
 }
+
+.buttn {
+   display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+}
+
+buttn:focus,
+.buttn:active:focus,
+.buttn.active:focus,
+.buttn.focus,
+.buttn:active.focus,
+.buttn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.buttn:hover,
+.buttn:focus,
+.buttn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.buttn:active,
+.buttn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
 .btn {
   display: inline-block;
   padding: 6px 12px;
@@ -3177,10 +3224,13 @@ fieldset[disabled] .btn-primary.focus {
   background-color: #337ab7;
   border-color: #2e6da4;
 }
+
+
 .btn-primary .badge {
   color: #337ab7;
   background-color: #fff;
 }
+
 .btn-success {
   color: #fff;
   background-color: #5cb85c;

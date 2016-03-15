@@ -28,10 +28,10 @@
 /**
  * These are the database login details
  */
-define("HOST", "localhost"); 			// The host you want to connect to. 
-define("USER", "root"); 			// The database username. 
-define("PASSWORD", "root"); 	// The database password. 
-define("DATABASE", "secure_login");             // The database name.
+define("HOST", "mysql6.000webhost.com"); 			// The host you want to connect to. 
+define("USER", "a7095621_user"); 			// The database username. 
+define("PASSWORD", "group5"); 	// The database password. 
+define("DATABASE", "a7095621_dbase");             // The database name.
 
 /**
  * Who can register and what the default role will be

@@ -226,6 +226,7 @@ header {
     -o-background-size: cover;
 }
 
+
 header .header-content {
     position: relative;
     width: 100%;
@@ -277,6 +278,8 @@ header .header-content .header-content-inner p {
         font-size: 18px;
     }
 }
+
+
 
 .section-heading {
     margin-top: 0;

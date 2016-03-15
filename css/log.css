@@ -1,14 +1,14 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #eee;
-  background-image: url(../img/header.jpg);
+  background: linear-gradient(rgba(204,204,204,0.5),rgba(204,204,204,0.5)), url(../img/header.jpg);
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-}
+
 
 .form-signin {
   max-width: 330px;
